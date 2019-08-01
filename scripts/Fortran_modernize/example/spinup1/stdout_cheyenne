@@ -1,0 +1,547 @@
+ files will contain          11  output times.
+ done opening files
+ Creating netcdf file for output
+ Creating netcdf restart file
+ initializing fftw
+ going in initturb &thermo
+ Divergence after projection.
+ DIVERGENCE =  -1.0528524E-05
+ done with initturb &thermo
+                 
+                 
+ parameters: ----------------------------------------
+ boussinesq
+                       n =           64
+                      kt =    32.00000    
+               viscosity =   1.600000000000000E-005
+                timestep =   4.832115347555587E-004
+      integration length =    4.83211534755559       =        10000  delt.
+        output frequency =   0.483211534755559       =         1000  delt.
+  starting from ics 
+  initial kinetic energy =   2.4160577E-04
+    "    potential  "    =   2.4160577E-04
+    "      total    "    =   4.8321154E-04
+         random i.c.s 
+         random no. seed =         -200
+     thermal expansivity =   0.0000000E+00
+     vertical t gradient =   0.0000000E+00
+     brunt-vaisala freq. =   0.0000000E+00
+ robert filter parameter =   1.0000000E-03
+ Number of droplets :        6400
+  forcing active over   0.0000000E+00  <= k =<    1.500000    
+         initial energy in forced band =   1.8743827E-04
+         there are            9  forced modes.
+                 
+                 
+                 
+ ndroppe =          600
+ diagnostics in initial conditions
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.0000000E+00
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.000   0.242E-03   0.242E-03   0.142E-01   0.346E+01     0.000   0.224E-03   1.0
+                              
+                              
+                              
+   
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.4110635E-08
+ Skewness of velocity derivatives =  -3.1504046E-02
+ kurtosis of velocity derivatives =    2.793920    
+ Writing to out.ncf at time   0.0000000E+00
+ mype           1 done sending data for out.ncf
+ after writing time
+ after mype = 0 dumped his data
+ mype = 0 has received all data for out.ncf from mype =           1
+ mype           2 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           2
+ mype = 0 has received all data for out.ncf from mype =           3
+ mype           3 done sending data for out.ncf
+ mype           4 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           4
+ mype = 0 has received all data for out.ncf from mype =           5
+ mype           5 done sending data for out.ncf
+ mype           6 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           6
+ mype = 0 has received all data for out.ncf from mype =           7
+ mype           7 done sending data for out.ncf
+ mype           8 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           8
+ mype = 0 has received all data for out.ncf from mype =           9
+ mype           9 done sending data for out.ncf
+ mype          10 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          10
+ mype = 0 has received all data for out.ncf from mype =          11
+ mype          11 done sending data for out.ncf
+ mype          12 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          12
+ mype = 0 has received all data for out.ncf from mype =          13
+ mype          13 done sending data for out.ncf
+ mype          14 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          14
+ mype = 0 has received all data for out.ncf from mype =          15
+ mype          15 done sending data for out.ncf
+ mype          16 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          16
+ mype = 0 has received all data for out.ncf from mype =          17
+ mype          17 done sending data for out.ncf
+ mype          18 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          18
+ mype = 0 has received all data for out.ncf from mype =          19
+ mype          19 done sending data for out.ncf
+ mype          20 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          20
+ mype = 0 has received all data for out.ncf from mype =          21
+ mype          21 done sending data for out.ncf
+ mype          22 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          22
+ mype = 0 has received all data for out.ncf from mype =          23
+ mype          23 done sending data for out.ncf
+ mype          24 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          24
+ mype = 0 has received all data for out.ncf from mype =          25
+ mype          25 done sending data for out.ncf
+ mype          26 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          26
+ mype          27 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          27
+ mype          28 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          28
+ mype = 0 has received all data for out.ncf from mype =          29
+ mype          29 done sending data for out.ncf
+ mype          30 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          30
+ mype = 0 has received all data for out.ncf from mype =          31
+ mype          31 done sending data for out.ncf
+ vorticity field divergence:
+ DIVERGENCE =  -2.0824045E-04
+ calling first fft
+ calling first fft
+ nt =        1000
+ MULTIPLICATION FACTOR =    1.001873      1.2933937E-02  1.2885616E-02
+   
+ ***MAX COURANT NUMBER :   0.157136356623505       0.4204297    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.4836947    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.484   0.213E-01   0.905E-04   0.790E+00   0.653E+03     0.000   0.729E-04   2.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.61687753110261     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.1611182E-06
+ Skewness of velocity derivatives =   0.3872071    
+ kurtosis of velocity derivatives =    5.396981    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -1.7562939E-03
+ nt =        2000
+ MULTIPLICATION FACTOR =    1.002408      1.0071576E-02  1.0023255E-02
+   
+ ***MAX COURANT NUMBER :   0.177066647740585       0.4737546    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.9669063    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.967   0.232E-01   0.309E-05   0.605E+00   0.185E+04     0.000   0.168E-05   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.24636944387631     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -3.4827275E-07
+ Skewness of velocity derivatives =   0.4623778    
+ kurtosis of velocity derivatives =    4.392664    
+   
+ vorticity field divergence:
+ DIVERGENCE =   2.7861225E-03
+ nt =        3000
+ MULTIPLICATION FACTOR =    1.002186      1.1089959E-02  1.1041638E-02
+   
+ ***MAX COURANT NUMBER :   0.191115408462351       0.5113431    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.450118    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.450   0.224E-01   0.638E-07   0.497E+00   0.146E+04     0.000   0.198E-07   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32266202590467     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.3644558E-07
+ Skewness of velocity derivatives =   0.3570037    
+ kurtosis of velocity derivatives =    4.031774    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -1.2908097E-02
+ nt =        4000
+ MULTIPLICATION FACTOR =    1.002170      1.1169567E-02  1.1121246E-02
+   
+ ***MAX COURANT NUMBER :   0.170141323584686       0.4552254    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.933329    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.933   0.223E-01   0.118E-08   0.466E+00   0.163E+04     0.000   0.206E-09   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.28603071299111     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.4379333E-07
+ Skewness of velocity derivatives =   0.4776959    
+ kurtosis of velocity derivatives =    4.474687    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -1.4880614E-03
+ nt =        5000
+ MULTIPLICATION FACTOR =    1.002248      1.0781584E-02  1.0733264E-02
+   
+ ***MAX COURANT NUMBER :   0.156011863188444       0.4174210    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.416541    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.417   0.225E-01   0.193E-10   0.545E+00   0.147E+04     0.000   0.349E-11   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32079086578607     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   6.1911805E-08
+ Skewness of velocity derivatives =   0.4597408    
+ kurtosis of velocity derivatives =    4.417711    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -2.9409635E-03
+ nt =        6000
+ MULTIPLICATION FACTOR =    1.002072      1.1697806E-02  1.1649486E-02
+   
+ ***MAX COURANT NUMBER :   0.161724408799565       0.4327054    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.899752    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.900   0.227E-01   0.252E-12   0.398E+00   0.145E+04     0.000   0.679E-13   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32529299406433     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.4603310E-06
+ Skewness of velocity derivatives =   0.4737952    
+ kurtosis of velocity derivatives =    4.328061    
+   
+ vorticity field divergence:
+ DIVERGENCE =   7.7970224E-03
+ nt =        7000
+ MULTIPLICATION FACTOR =    1.002274      1.0659661E-02  1.0611340E-02
+   
+ ***MAX COURANT NUMBER :   0.161752578499600       0.4327807    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   3.382964    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    3.383   0.212E-01   0.700E-14   0.464E+00   0.164E+04     0.000   0.165E-14   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.28388590521689     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   2.2257132E-06
+ Skewness of velocity derivatives =   0.5063665    
+ kurtosis of velocity derivatives =    4.566358    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -1.0648585E-03
+ nt =        8000
+ MULTIPLICATION FACTOR =    1.001749      1.3852895E-02  1.3804574E-02
+   
+ ***MAX COURANT NUMBER :   0.160247610325996       0.4287541    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   3.866175    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    3.866   0.241E-01   0.192E-15   0.392E+00   0.128E+04     0.000   0.412E-16   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.36679955253549     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.1423870E-06
+ Skewness of velocity derivatives =   0.3877610    
+ kurtosis of velocity derivatives =    4.041926    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -8.7757455E-03
+ nt =        9000
+ MULTIPLICATION FACTOR =    1.001936      1.2514984E-02  1.2466663E-02
+   
+ ***MAX COURANT NUMBER :   0.189517655155776       0.5070682    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   4.349387    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    4.349   0.241E-01   0.420E-17   0.462E+00   0.160E+04     0.000   0.517E-18   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.29315105707433     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.2742533E-06
+ Skewness of velocity derivatives =   0.4325318    
+ kurtosis of velocity derivatives =    4.315355    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -3.7249255E-03
+ nt =       10000
+ MULTIPLICATION FACTOR =    1.002549      9.5132664E-03  9.4649456E-03
+ Writing to Zk.out at time    4.832115    
+ in opt = 0 at start
+ mype           1 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =           1
+ mype           2 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =           2
+ mype           3 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =           3
+ mype           4 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =           4
+ mype           5 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =           5
+ mype           6 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =           6
+ mype           7 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =           7
+ mype           8 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =           8
+ mype           9 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =           9
+ mype          10 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          10
+ mype          11 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          11
+ mype          12 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          12
+ mype          13 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          13
+ mype          14 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          14
+ mype          15 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          15
+ mype          16 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          16
+ mype          17 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          17
+ mype          18 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          18
+ mype          19 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          19
+ mype          20 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          20
+ mype          21 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          21
+ mype          22 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          22
+ mype          23 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          23
+ mype          24 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          24
+ mype          25 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          25
+ mype          26 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          26
+ mype          27 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          27
+ mype          28 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          28
+ mype          29 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          29
+ mype          30 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          30
+ mype          31 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          31
+ Writing to out.ncf at time    4.832115    
+ after writing time
+ mype           1 done sending data for out.ncf
+ after mype = 0 dumped his data
+ mype = 0 has received all data for out.ncf from mype =           1
+ mype           2 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           2
+ mype           3 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           3
+ mype           4 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           4
+ mype           5 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           5
+ mype           6 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           6
+ mype           7 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           7
+ mype           8 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           8
+ mype           9 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           9
+ mype          10 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          10
+ mype          11 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          11
+ mype          12 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          12
+ mype          13 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          13
+ mype          14 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          14
+ mype          15 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          15
+ mype          16 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          16
+ mype          17 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          17
+ mype          18 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          18
+ mype          19 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          19
+ mype          20 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          20
+ mype          21 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          21
+ mype          22 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          22
+ mype          23 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          23
+ mype          24 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          24
+ mype          25 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          25
+ mype          26 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          26
+ mype          27 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          27
+ mype          28 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          28
+ mype          29 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          29
+ mype          30 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          30
+ mype          31 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          31
+   
+ ***MAX COURANT NUMBER :   0.205064700848291       0.5486655    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   4.832116    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    4.832   0.217E-01   0.619E-19   0.642E+00   0.174E+04     0.000   0.111E-19   4.0
+                              
+                              
+                              
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -7.1561476E-07
+ Skewness of velocity derivatives =   0.4433150    
+ kurtosis of velocity derivatives =    4.687890    
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+               
+               
+               
+               
+ ______________________________________________________ 
+      
+ cpu time required for main loop =     21. s =     0.4 m =    0.01 h =   0.000 d.

@@ -1,0 +1,3260 @@
+ files will contain         101  output times.
+ done opening files
+ Creating netcdf file for output
+ Creating netcdf restart file
+ Creating netcdf droplet restart file
+ initializing fftw
+ going in initturb &thermo
+ RESTART FROM OUTPUT DATA. 
+ Restarting from output data Zk.in 
+ in restart time =  0.3145408    
+ RESTART #           2
+ Just read time=   0.3145408    
+ done with initturb &thermo
+ allocate droplet variables
+ go into initmicro
+ RESTART WITH MYCROPHYSICAL FILE. 
+ Restarting from output data drop.in 
+ number of droplets per cpu =          600
+ nwrites =           1
+ in droplet restart time =  0.3145093    
+ Just read time =   0.3145093     for droplet restart
+ exit initmicro
+                 
+                 
+ parameters: ----------------------------------------
+ boussinesq
+                       n =           64
+                      kt =    32.00000    
+               viscosity =   1.600000000000000E-005
+                timestep =   3.145407925786214E-005
+      integration length =    3.14540792578621       =       100000  delt.
+        output frequency =   3.145407925786214E-002  =         1000  delt.
+   starting from restart file
+   restart from time     =   0.3145093    
+     thermal expansivity =   0.0000000E+00
+     vertical t gradient =   0.0000000E+00
+     brunt-vaisala freq. =   0.0000000E+00
+ robert filter parameter =   1.0000000E-03
+ Number of droplets :        6400
+  forcing active over   0.0000000E+00  <= k =<    1.500000    
+         initial energy in forced band =   1.1026363E-02
+         there are            9  forced modes.
+                 
+                 
+                 
+ ndroppe =          600
+ diagnostics in initial conditions
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.3145093    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.315   0.218E-01   0.547E-20   0.481E+00   0.155E+04     0.000   0.109E-20   5.0
+                              
+                              
+                              
+   
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   7.2612471E-07
+ Skewness of velocity derivatives =   0.4396240    
+ kurtosis of velocity derivatives =    4.330038    
+ Writing to out.ncf at time   0.3145093    
+ after writing time
+ mype           1 done sending data for out.ncf
+ after mype = 0 dumped his data
+ mype = 0 has received all data for out.ncf from mype =           1
+ mype           2 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           2
+ mype = 0 has received all data for out.ncf from mype =           3
+ mype           3 done sending data for out.ncf
+ mype           4 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           4
+ mype = 0 has received all data for out.ncf from mype =           5
+ mype           5 done sending data for out.ncf
+ mype           6 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           6
+ mype = 0 has received all data for out.ncf from mype =           7
+ mype           7 done sending data for out.ncf
+ mype           8 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           8
+ mype = 0 has received all data for out.ncf from mype =           9
+ mype           9 done sending data for out.ncf
+ mype          10 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          10
+ mype = 0 has received all data for out.ncf from mype =          11
+ mype          11 done sending data for out.ncf
+ mype          12 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          12
+ mype = 0 has received all data for out.ncf from mype =          13
+ mype          13 done sending data for out.ncf
+ mype          14 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          14
+ mype = 0 has received all data for out.ncf from mype =          15
+ mype          15 done sending data for out.ncf
+ mype          16 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          16
+ mype = 0 has received all data for out.ncf from mype =          17
+ mype          17 done sending data for out.ncf
+ mype          18 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          18
+ mype = 0 has received all data for out.ncf from mype =          19
+ mype          19 done sending data for out.ncf
+ mype          20 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          20
+ mype = 0 has received all data for out.ncf from mype =          21
+ mype          21 done sending data for out.ncf
+ mype          22 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          22
+ mype = 0 has received all data for out.ncf from mype =          23
+ mype          23 done sending data for out.ncf
+ mype          24 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          24
+ mype = 0 has received all data for out.ncf from mype =          25
+ mype          25 done sending data for out.ncf
+ mype          26 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          26
+ mype = 0 has received all data for out.ncf from mype =          27
+ mype          27 done sending data for out.ncf
+ mype          28 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          28
+ mype = 0 has received all data for out.ncf from mype =          29
+ mype          29 done sending data for out.ncf
+ mype          30 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          30
+ mype = 0 has received all data for out.ncf from mype =          31
+ mype          31 done sending data for out.ncf
+ vorticity field divergence:
+ DIVERGENCE =  -1.0751558E-02
+ calling first fft
+ calling first fft
+ nt =        1000
+ MULTIPLICATION FACTOR =    1.000140      1.1225891E-02  1.1222746E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.117150054351657E-002  0.4591859    
+  
+   
+ ***MAX COURANT NUMBER :   1.238855336997100E-002  0.5092108    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.3459949    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.346   0.218E-01   0.341E-17   0.446E+00   0.156E+04     0.000   0.872E-21   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.30120874495101     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.5813696E-06
+ Skewness of velocity derivatives =   0.4328249    
+ kurtosis of velocity derivatives =    4.277324    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -2.9814634E-02
+ nt =        2000
+ MULTIPLICATION FACTOR =    1.000139      1.1318115E-02  1.1314970E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.289252851573158E-002  0.5299259    
+  
+   
+ ***MAX COURANT NUMBER :   1.445240497503626E-002  0.5940420    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.3774489    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.377   0.218E-01   0.198E-17   0.445E+00   0.154E+04     0.000   0.693E-21   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.30475543205369     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -6.3354906E-07
+ Skewness of velocity derivatives =   0.4553666    
+ kurtosis of velocity derivatives =    4.563076    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -6.5271586E-02
+ nt =        3000
+ MULTIPLICATION FACTOR =    1.000138      1.1395731E-02  1.1392586E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.126297683018453E-002  0.4629459    
+  
+   
+ ***MAX COURANT NUMBER :   1.400614738994207E-002  0.5756993    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.4089030    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.409   0.218E-01   0.550E-18   0.418E+00   0.151E+04     0.000   0.548E-21   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31118938276803     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   8.0886434E-07
+ Skewness of velocity derivatives =   0.4077081    
+ kurtosis of velocity derivatives =    4.365400    
+   
+ vorticity field divergence:
+ DIVERGENCE =   2.5381606E-02
+ nt =        4000
+ MULTIPLICATION FACTOR =    1.000137      1.1482137E-02  1.1478992E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.157887541384947E-002  0.4759304    
+  
+   
+ ***MAX COURANT NUMBER :   1.322560011110930E-002  0.5436162    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.4403571    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.440   0.219E-01   0.150E-17   0.428E+00   0.149E+04     0.000   0.434E-21   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31464662024170     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.1976426E-06
+ Skewness of velocity derivatives =   0.4148726    
+ kurtosis of velocity derivatives =    4.504202    
+   
+ vorticity field divergence:
+ DIVERGENCE =   3.5802536E-03
+ nt =        5000
+ MULTIPLICATION FACTOR =    1.000137      1.1508177E-02  1.1505032E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.097880680858635E-002  0.4512655    
+  
+   
+ ***MAX COURANT NUMBER :   1.223765273481430E-002  0.5030083    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.4718112    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.472   0.220E-01   0.550E-17   0.430E+00   0.149E+04     0.000   0.345E-21   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31544672954740     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.1030800E-06
+ Skewness of velocity derivatives =   0.4390433    
+ kurtosis of velocity derivatives =    4.477784    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -1.5004510E-02
+ nt =        6000
+ MULTIPLICATION FACTOR =    1.000137      1.1454060E-02  1.1450915E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.108036503436624E-002  0.4554399    
+  
+   
+ ***MAX COURANT NUMBER :   1.163507760215025E-002  0.4782405    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.5032653    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.503   0.221E-01   0.125E-16   0.504E+00   0.148E+04     0.000   0.275E-21   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31725587917055     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.0414633E-06
+ Skewness of velocity derivatives =   0.4563901    
+ kurtosis of velocity derivatives =    4.635438    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -6.0478747E-03
+ nt =        7000
+ MULTIPLICATION FACTOR =    1.000138      1.1359918E-02  1.1356773E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.081209192143610E-002  0.4444130    
+  
+   
+ ***MAX COURANT NUMBER :   1.144836124989092E-002  0.4705658    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.5347193    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.535   0.221E-01   0.224E-16   0.516E+00   0.146E+04     0.000   0.221E-21   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32220328640511     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.1682343E-06
+ Skewness of velocity derivatives =   0.4415485    
+ kurtosis of velocity derivatives =    4.634091    
+   
+ vorticity field divergence:
+ DIVERGENCE =   3.0832073E-02
+ nt =        8000
+ MULTIPLICATION FACTOR =    1.000139      1.1308246E-02  1.1305101E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.022754391945453E-002  0.4203861    
+  
+   
+ ***MAX COURANT NUMBER :   1.230351270297636E-002  0.5057154    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.5661734    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.566   0.223E-01   0.347E-16   0.529E+00   0.144E+04     0.000   0.178E-21   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32630512554626     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -4.4762697E-07
+ Skewness of velocity derivatives =   0.4182936    
+ kurtosis of velocity derivatives =    4.228660    
+   
+ vorticity field divergence:
+ DIVERGENCE =   2.3634793E-02
+ nt =        9000
+ MULTIPLICATION FACTOR =    1.000139      1.1325417E-02  1.1322272E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.015768090304818E-002  0.4175145    
+  
+   
+ ***MAX COURANT NUMBER :   1.067413575653941E-002  0.4387425    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.5976275    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.598   0.224E-01   0.488E-16   0.424E+00   0.145E+04     0.000   0.144E-21   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32422447470879     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   8.8516845E-07
+ Skewness of velocity derivatives =   0.4302206    
+ kurtosis of velocity derivatives =    4.494675    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -6.0076006E-03
+ nt =       10000
+ MULTIPLICATION FACTOR =    1.000139      1.1336115E-02  1.1332970E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.021741702671261E-002  0.4199699    
+  
+   
+ ***MAX COURANT NUMBER :   1.099487483107175E-002  0.4519260    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.6290816    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.629   0.225E-01   0.640E-16   0.415E+00   0.146E+04     0.000   0.115E-21   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32220527607948     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.6635813E-06
+ Skewness of velocity derivatives =   0.4711127    
+ kurtosis of velocity derivatives =    4.820022    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -3.9426267E-02
+ nt =       11000
+ MULTIPLICATION FACTOR =    1.000139      1.1317439E-02  1.1314294E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.743479606484510E-003  0.4004895    
+  
+   
+ ***MAX COURANT NUMBER :   1.050191187454036E-002  0.4316636    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.6605356    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.661   0.226E-01   0.800E-16   0.402E+00   0.148E+04     0.000   0.922E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31885154265843     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.1643940E-06
+ Skewness of velocity derivatives =   0.4596603    
+ kurtosis of velocity derivatives =    4.839225    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.4129961E-02
+ nt =       12000
+ MULTIPLICATION FACTOR =    1.000139      1.1295363E-02  1.1292218E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.770283570892274E-003  0.4015912    
+  
+   
+ ***MAX COURANT NUMBER :   1.038898835601833E-002  0.4270220    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.6919897    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.692   0.226E-01   0.969E-16   0.382E+00   0.149E+04     0.000   0.762E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31627070543744     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.6410440E-06
+ Skewness of velocity derivatives =   0.4406272    
+ kurtosis of velocity derivatives =    4.922690    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.2388604E-02
+ nt =       13000
+ MULTIPLICATION FACTOR =    1.000139      1.1285914E-02  1.1282769E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.034111854055280E-002  0.4250544    
+  
+   
+ ***MAX COURANT NUMBER :   1.151610056980976E-002  0.4733501    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.7234438    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.723   0.227E-01   0.115E-15   0.489E+00   0.147E+04     0.000   0.653E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32075126001966     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   8.7156081E-07
+ Skewness of velocity derivatives =   0.4454346    
+ kurtosis of velocity derivatives =    4.626256    
+   
+ vorticity field divergence:
+ DIVERGENCE =   8.6875483E-03
+ nt =       14000
+ MULTIPLICATION FACTOR =    1.000139      1.1282273E-02  1.1279128E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.102496983622954E-002  0.4531630    
+  
+   
+ ***MAX COURANT NUMBER :   1.162409369020443E-002  0.4777890    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.7548979    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.755   0.228E-01   0.133E-15   0.549E+00   0.145E+04     0.000   0.574E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32477506320407     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.0806801E-06
+ Skewness of velocity derivatives =   0.4167417    
+ kurtosis of velocity derivatives =    4.440614    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -1.0642685E-02
+ nt =       15000
+ MULTIPLICATION FACTOR =    1.000139      1.1277633E-02  1.1274488E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.035727357006399E-002  0.4257185    
+  
+   
+ ***MAX COURANT NUMBER :   1.094045773691649E-002  0.4496893    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.7863520    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.786   0.230E-01   0.151E-15   0.436E+00   0.144E+04     0.000   0.519E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32596440387001     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.2041568E-06
+ Skewness of velocity derivatives =   0.3885853    
+ kurtosis of velocity derivatives =    4.138755    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -6.2808096E-03
+ nt =       16000
+ MULTIPLICATION FACTOR =    1.000139      1.1332772E-02  1.1329627E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.023542168058011E-002  0.4207099    
+  
+   
+ ***MAX COURANT NUMBER :   1.097686582685297E-002  0.4511858    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.8178061    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.818   0.231E-01   0.169E-15   0.473E+00   0.146E+04     0.000   0.482E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32114298864660     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.7238619E-07
+ Skewness of velocity derivatives =   0.3908062    
+ kurtosis of velocity derivatives =    4.083938    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -2.9873891E-02
+ nt =       17000
+ MULTIPLICATION FACTOR =    1.000137      1.1492028E-02  1.1488883E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.078255666147748E-002  0.4431990    
+  
+   
+ ***MAX COURANT NUMBER :   1.151748398151962E-002  0.4734070    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.8492602    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.849   0.231E-01   0.184E-15   0.463E+00   0.150E+04     0.000   0.455E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31437395636844     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   3.5177297E-07
+ Skewness of velocity derivatives =   0.4035896    
+ kurtosis of velocity derivatives =    4.219327    
+   
+ vorticity field divergence:
+ DIVERGENCE =   4.6926178E-03
+ nt =       18000
+ MULTIPLICATION FACTOR =    1.000134      1.1748291E-02  1.1745146E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.013749599812641E-002  0.4166849    
+  
+   
+ ***MAX COURANT NUMBER :   1.074288798325001E-002  0.4415685    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.8807142    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.881   0.232E-01   0.199E-15   0.535E+00   0.153E+04     0.000   0.435E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.30768336720942     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -2.2526189E-07
+ Skewness of velocity derivatives =   0.4017605    
+ kurtosis of velocity derivatives =    4.517509    
+   
+ vorticity field divergence:
+ DIVERGENCE =   4.1033519E-03
+ nt =       19000
+ MULTIPLICATION FACTOR =    1.000131      1.2035473E-02  1.2032328E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.023062106793285E-002  0.4205126    
+  
+   
+ ***MAX COURANT NUMBER :   1.085722246570673E-002  0.4462680    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.9121683    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.912   0.232E-01   0.214E-15   0.421E+00   0.153E+04     0.000   0.423E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.30728749629808     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -5.1555401E-07
+ Skewness of velocity derivatives =   0.4091116    
+ kurtosis of velocity derivatives =    4.741881    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -3.1205963E-02
+ nt =       20000
+ MULTIPLICATION FACTOR =    1.000129      1.2211062E-02  1.2207917E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.797582025229873E-003  0.4027133    
+  
+   
+ ***MAX COURANT NUMBER :   1.108967623624149E-002  0.4558226    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.9436224    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.944   0.233E-01   0.229E-15   0.435E+00   0.151E+04     0.000   0.415E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31160670205914     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -9.3985528E-07
+ Skewness of velocity derivatives =   0.3887979    
+ kurtosis of velocity derivatives =    4.325207    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -1.9756131E-02
+ nt =       21000
+ MULTIPLICATION FACTOR =    1.000128      1.2251955E-02  1.2248809E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.042967211621320E-002  0.4286943    
+  
+   
+ ***MAX COURANT NUMBER :   1.115593643672213E-002  0.4585462    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+  0.9750764    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    0.975   0.233E-01   0.243E-15   0.516E+00   0.150E+04     0.000   0.411E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31299754486202     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   6.0337265E-07
+ Skewness of velocity derivatives =   0.4075993    
+ kurtosis of velocity derivatives =    4.223898    
+   
+ vorticity field divergence:
+ DIVERGENCE =   2.2887474E-02
+ nt =       22000
+ MULTIPLICATION FACTOR =    1.000128      1.2305748E-02  1.2302603E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.981232104889106E-003  0.4102619    
+  
+   
+ ***MAX COURANT NUMBER :   1.096874517111376E-002  0.4508520    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.006531    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.007   0.234E-01   0.256E-15   0.431E+00   0.149E+04     0.000   0.411E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31484103130501     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -2.0944644E-06
+ Skewness of velocity derivatives =   0.4186043    
+ kurtosis of velocity derivatives =    4.384349    
+   
+ vorticity field divergence:
+ DIVERGENCE =   2.5223881E-02
+ nt =       23000
+ MULTIPLICATION FACTOR =    1.000126      1.2507979E-02  1.2504834E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.481009137115162E-003  0.3897011    
+  
+   
+ ***MAX COURANT NUMBER :   1.097704419125581E-002  0.4511931    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.037985    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.038   0.235E-01   0.267E-15   0.411E+00   0.148E+04     0.000   0.414E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31691115144361     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.1047907E-06
+ Skewness of velocity derivatives =   0.4307131    
+ kurtosis of velocity derivatives =    4.340035    
+   
+ vorticity field divergence:
+ DIVERGENCE =   8.0076568E-03
+ nt =       24000
+ MULTIPLICATION FACTOR =    1.000123      1.2830582E-02  1.2827437E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.063578378463536E-002  0.4371662    
+  
+   
+ ***MAX COURANT NUMBER :   1.146451120399227E-002  0.4712296    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.069439    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.069   0.235E-01   0.277E-15   0.504E+00   0.147E+04     0.000   0.417E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31909258613758     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.9262393E-07
+ Skewness of velocity derivatives =   0.4250328    
+ kurtosis of velocity derivatives =    4.337155    
+   
+ vorticity field divergence:
+ DIVERGENCE =   6.5944041E-03
+ nt =       25000
+ MULTIPLICATION FACTOR =    1.000120      1.3074723E-02  1.3071578E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.097574778657173E-002  0.4511398    
+  
+   
+ ***MAX COURANT NUMBER :   1.118176012197280E-002  0.4596076    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.100893    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.101   0.236E-01   0.289E-15   0.509E+00   0.146E+04     0.000   0.425E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32156813027936     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.3233901E-06
+ Skewness of velocity derivatives =   0.3885594    
+ kurtosis of velocity derivatives =    4.419378    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -1.3993451E-02
+ nt =       26000
+ MULTIPLICATION FACTOR =    1.000119      1.3247835E-02  1.3244690E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.061592515606027E-002  0.4363499    
+  
+   
+ ***MAX COURANT NUMBER :   1.165108109442487E-002  0.4788983    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.132347    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.132   0.237E-01   0.300E-15   0.400E+00   0.145E+04     0.000   0.435E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32514368101137     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   5.2237488E-07
+ Skewness of velocity derivatives =   0.4000970    
+ kurtosis of velocity derivatives =    4.511456    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -3.7565466E-02
+ nt =       27000
+ MULTIPLICATION FACTOR =    1.000117      1.3477021E-02  1.3473876E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.046219896774146E-002  0.4300312    
+  
+   
+ ***MAX COURANT NUMBER :   1.088078179311155E-002  0.4472364    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.163801    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.164   0.239E-01   0.312E-15   0.511E+00   0.143E+04     0.000   0.448E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32893332876535     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.7877039E-07
+ Skewness of velocity derivatives =   0.4382764    
+ kurtosis of velocity derivatives =    4.558930    
+   
+ vorticity field divergence:
+ DIVERGENCE =   7.1719615E-03
+ nt =       28000
+ MULTIPLICATION FACTOR =    1.000115      1.3726660E-02  1.3723515E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.019833348572548E-002  0.4191855    
+  
+   
+ ***MAX COURANT NUMBER :   1.082959846008102E-002  0.4451326    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.195255    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.195   0.240E-01   0.327E-15   0.523E+00   0.143E+04     0.000   0.465E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32971077057218     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.9781683E-07
+ Skewness of velocity derivatives =   0.4354649    
+ kurtosis of velocity derivatives =    4.431081    
+   
+ vorticity field divergence:
+ DIVERGENCE =   3.8073644E-02
+ nt =       29000
+ MULTIPLICATION FACTOR =    1.000113      1.3882843E-02  1.3879698E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.150390798526418E-002  0.4728490    
+  
+   
+ ***MAX COURANT NUMBER :   1.190068467479887E-002  0.4891578    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.226709    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.227   0.241E-01   0.338E-15   0.431E+00   0.143E+04     0.000   0.479E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32943777682322     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   6.2708602E-07
+ Skewness of velocity derivatives =   0.4305906    
+ kurtosis of velocity derivatives =    4.199765    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -2.4021946E-02
+ nt =       30000
+ MULTIPLICATION FACTOR =    1.000113      1.3849704E-02  1.3846559E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.024180002062813E-002  0.4209721    
+  
+   
+ ***MAX COURANT NUMBER :   1.054699456494682E-002  0.4335166    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.258163    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.258   0.243E-01   0.347E-15   0.425E+00   0.142E+04     0.000   0.489E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.33103029981628     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.2928941E-06
+ Skewness of velocity derivatives =   0.4497811    
+ kurtosis of velocity derivatives =    4.163832    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -1.6109742E-02
+ nt =       31000
+ MULTIPLICATION FACTOR =    1.000115      1.3625568E-02  1.3622423E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.753861719835376E-003  0.4009162    
+  
+   
+ ***MAX COURANT NUMBER :   1.023772519158756E-002  0.4208046    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.289617    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.290   0.244E-01   0.353E-15   0.418E+00   0.142E+04     0.000   0.496E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.33129023398667     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -7.0988426E-07
+ Skewness of velocity derivatives =   0.4135717    
+ kurtosis of velocity derivatives =    4.111244    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.5536426E-02
+ nt =       32000
+ MULTIPLICATION FACTOR =    1.000118      1.3343411E-02  1.3340265E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.625997644870293E-003  0.3956606    
+  
+   
+ ***MAX COURANT NUMBER :   1.062355277198673E-002  0.4366634    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.321071    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.321   0.245E-01   0.361E-15   0.420E+00   0.144E+04     0.000   0.507E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32766617008839     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -2.7893009E-06
+ Skewness of velocity derivatives =   0.3720700    
+ kurtosis of velocity derivatives =    4.264297    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -4.1617781E-02
+ nt =       33000
+ MULTIPLICATION FACTOR =    1.000119      1.3173178E-02  1.3170033E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.002536931894878E-002  0.4120761    
+  
+   
+ ***MAX COURANT NUMBER :   1.123525204142062E-002  0.4618063    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.352525    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.353   0.247E-01   0.368E-15   0.505E+00   0.145E+04     0.000   0.517E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32435326649942     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   5.9972285E-07
+ Skewness of velocity derivatives =   0.3761257    
+ kurtosis of velocity derivatives =    4.401710    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -9.1876741E-03
+ nt =       34000
+ MULTIPLICATION FACTOR =    1.000119      1.3186792E-02  1.3183647E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.025294127027890E-002  0.4214301    
+  
+   
+ ***MAX COURANT NUMBER :   1.079870154016899E-002  0.4438626    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.383979    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.384   0.248E-01   0.373E-15   0.567E+00   0.147E+04     0.000   0.523E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31954086250020     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -3.3317505E-07
+ Skewness of velocity derivatives =   0.3732621    
+ kurtosis of velocity derivatives =    4.551396    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -3.6157396E-02
+ nt =       35000
+ MULTIPLICATION FACTOR =    1.000118      1.3358154E-02  1.3355009E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.019504171991691E-002  0.4190502    
+  
+   
+ ***MAX COURANT NUMBER :   1.096685711865439E-002  0.4507744    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.415434    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.415   0.248E-01   0.379E-15   0.566E+00   0.149E+04     0.000   0.530E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31568214227843     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.9116653E-06
+ Skewness of velocity derivatives =   0.3783154    
+ kurtosis of velocity derivatives =    4.468949    
+   
+ vorticity field divergence:
+ DIVERGENCE =   3.0187704E-04
+ nt =       36000
+ MULTIPLICATION FACTOR =    1.000115      1.3687815E-02  1.3684670E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.844647750765502E-003  0.4046478    
+  
+   
+ ***MAX COURANT NUMBER :   1.122797535383146E-002  0.4615072    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.446888    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.447   0.249E-01   0.386E-15   0.449E+00   0.149E+04     0.000   0.540E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31653855423165     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   5.7635748E-07
+ Skewness of velocity derivatives =   0.4149193    
+ kurtosis of velocity derivatives =    4.298397    
+   
+ vorticity field divergence:
+ DIVERGENCE =   2.3028281E-02
+ nt =       37000
+ MULTIPLICATION FACTOR =    1.000111      1.4168295E-02  1.4165150E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.029412967122328E-002  0.4231230    
+  
+   
+ ***MAX COURANT NUMBER :   1.097424038985014E-002  0.4510778    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.478342    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.478   0.250E-01   0.394E-15   0.561E+00   0.148E+04     0.000   0.549E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31692147127437     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -2.3708662E-07
+ Skewness of velocity derivatives =   0.4145203    
+ kurtosis of velocity derivatives =    4.311703    
+   
+ vorticity field divergence:
+ DIVERGENCE =   4.7695907E-03
+ nt =       38000
+ MULTIPLICATION FACTOR =    1.000107      1.4707374E-02  1.4704229E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.100739586713964E-002  0.4524406    
+  
+   
+ ***MAX COURANT NUMBER :   1.195651635818155E-002  0.4914527    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.509796    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.510   0.251E-01   0.400E-15   0.453E+00   0.148E+04     0.000   0.556E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31858329624282     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.1948983E-06
+ Skewness of velocity derivatives =   0.4220390    
+ kurtosis of velocity derivatives =    4.354313    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.6553834E-02
+ nt =       39000
+ MULTIPLICATION FACTOR =    1.000104      1.5104397E-02  1.5101252E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.077718325257719E-002  0.4429781    
+  
+   
+ ***MAX COURANT NUMBER :   1.132179647984411E-002  0.4653636    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.541250    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.541   0.252E-01   0.406E-15   0.434E+00   0.147E+04     0.000   0.564E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31996386933936     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.3025002E-06
+ Skewness of velocity derivatives =   0.3978651    
+ kurtosis of velocity derivatives =    4.182929    
+   
+ vorticity field divergence:
+ DIVERGENCE =   3.5556182E-03
+ nt =       40000
+ MULTIPLICATION FACTOR =    1.000103      1.5294979E-02  1.5291834E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.920953637430658E-003  0.4077843    
+  
+   
+ ***MAX COURANT NUMBER :   1.213315004627040E-002  0.4987129    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.572704    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.573   0.253E-01   0.411E-15   0.536E+00   0.145E+04     0.000   0.571E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32339368150083     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   8.7936206E-07
+ Skewness of velocity derivatives =   0.3917907    
+ kurtosis of velocity derivatives =    4.018176    
+   
+ vorticity field divergence:
+ DIVERGENCE =   3.2668570E-03
+ nt =       41000
+ MULTIPLICATION FACTOR =    1.000103      1.5309731E-02  1.5306586E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.086305846196074E-002  0.4465079    
+  
+   
+ ***MAX COURANT NUMBER :   1.124836617538089E-002  0.4623453    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.604158    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.604   0.254E-01   0.419E-15   0.533E+00   0.144E+04     0.000   0.581E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32684200156395     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -2.0307998E-06
+ Skewness of velocity derivatives =   0.3901497    
+ kurtosis of velocity derivatives =    4.237485    
+   
+ vorticity field divergence:
+ DIVERGENCE =   3.4065798E-02
+ nt =       42000
+ MULTIPLICATION FACTOR =    1.000104      1.5094750E-02  1.5091605E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.110289260345705E-002  0.4563659    
+  
+   
+ ***MAX COURANT NUMBER :   1.272702230118109E-002  0.5231230    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.635612    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.636   0.255E-01   0.427E-15   0.540E+00   0.144E+04     0.000   0.592E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32657193877961     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.6984557E-06
+ Skewness of velocity derivatives =   0.3923481    
+ kurtosis of velocity derivatives =    4.185887    
+   
+ vorticity field divergence:
+ DIVERGENCE =   2.1312941E-02
+ nt =       43000
+ MULTIPLICATION FACTOR =    1.000107      1.4755772E-02  1.4752627E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.189493713568774E-002  0.4889216    
+  
+   
+ ***MAX COURANT NUMBER :   1.385943469295946E-002  0.5696689    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.667066    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.667   0.256E-01   0.429E-15   0.520E+00   0.148E+04     0.000   0.594E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31743656770177     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.1696180E-06
+ Skewness of velocity derivatives =   0.3963592    
+ kurtosis of velocity derivatives =    4.206625    
+   
+ vorticity field divergence:
+ DIVERGENCE =   7.9842880E-03
+ nt =       44000
+ MULTIPLICATION FACTOR =    1.000109      1.4456854E-02  1.4453709E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.136014265127977E-002  0.4669397    
+  
+   
+ ***MAX COURANT NUMBER :   1.249117670675812E-002  0.5134290    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.698520    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.699   0.256E-01   0.433E-15   0.536E+00   0.153E+04     0.000   0.600E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.30586242268085     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   2.2349200E-06
+ Skewness of velocity derivatives =   0.3853585    
+ kurtosis of velocity derivatives =    4.446300    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.8519366E-02
+ nt =       45000
+ MULTIPLICATION FACTOR =    1.000110      1.4265937E-02  1.4262792E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.236264702804584E-002  0.5081460    
+  
+   
+ ***MAX COURANT NUMBER :   1.355769142732992E-002  0.5572663    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.729974    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.730   0.257E-01   0.441E-15   0.439E+00   0.157E+04     0.000   0.612E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.29845661366812     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.0215256E-06
+ Skewness of velocity derivatives =   0.4122314    
+ kurtosis of velocity derivatives =    4.605661    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -4.3896278E-03
+ nt =       46000
+ MULTIPLICATION FACTOR =    1.000111      1.4116974E-02  1.4113829E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.387328041099480E-002  0.5702381    
+  
+   
+ ***MAX COURANT NUMBER :   1.459168147154911E-002  0.5997667    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.761428    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.761   0.256E-01   0.445E-15   0.534E+00   0.159E+04     0.000   0.617E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.29452832698343     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -7.6350403E-07
+ Skewness of velocity derivatives =   0.4218107    
+ kurtosis of velocity derivatives =    4.534092    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -1.1222661E-02
+ nt =       47000
+ MULTIPLICATION FACTOR =    1.000113      1.3940341E-02  1.3937196E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.170198963026566E-002  0.4809908    
+  
+   
+ ***MAX COURANT NUMBER :   1.294427739442967E-002  0.5320529    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.792883    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.793   0.256E-01   0.448E-15   0.563E+00   0.160E+04     0.000   0.620E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.29237438032437     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -2.2682766E-06
+ Skewness of velocity derivatives =   0.4388977    
+ kurtosis of velocity derivatives =    4.912225    
+   
+ vorticity field divergence:
+ DIVERGENCE =   4.5836579E-02
+ nt =       48000
+ MULTIPLICATION FACTOR =    1.000115      1.3644767E-02  1.3641622E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.163876524992611E-002  0.4783920    
+  
+   
+ ***MAX COURANT NUMBER :   1.328092642868393E-002  0.5458903    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.824337    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.824   0.255E-01   0.451E-15   0.585E+00   0.162E+04     0.000   0.624E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.28811540773731     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -4.0364978E-07
+ Skewness of velocity derivatives =   0.4532908    
+ kurtosis of velocity derivatives =    5.139689    
+   
+ vorticity field divergence:
+ DIVERGENCE =   2.8802874E-03
+ nt =       49000
+ MULTIPLICATION FACTOR =    1.000119      1.3183228E-02  1.3180083E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.194388293803870E-002  0.4909334    
+  
+   
+ ***MAX COURANT NUMBER :   1.219803408562666E-002  0.5013798    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.855791    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.856   0.255E-01   0.457E-15   0.599E+00   0.165E+04     0.000   0.633E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.28255604723890     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -2.8043715E-08
+ Skewness of velocity derivatives =   0.4551624    
+ kurtosis of velocity derivatives =    4.926270    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -1.1273392E-02
+ nt =       50000
+ MULTIPLICATION FACTOR =    1.000125      1.2568227E-02  1.2565082E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.145537764146130E-002  0.4708542    
+  
+   
+ ***MAX COURANT NUMBER :   1.214649039849769E-002  0.4992612    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.887245    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.887   0.254E-01   0.464E-15   0.459E+00   0.169E+04     0.000   0.643E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.27530024003155     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   4.1109161E-07
+ Skewness of velocity derivatives =   0.4605579    
+ kurtosis of velocity derivatives =    4.810820    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.2660251E-02
+ nt =       51000
+ MULTIPLICATION FACTOR =    1.000132      1.1876461E-02  1.1873316E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.242118390487164E-002  0.5105520    
+  
+   
+ ***MAX COURANT NUMBER :   1.329393832938891E-002  0.5464252    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.918699    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.919   0.252E-01   0.471E-15   0.589E+00   0.172E+04     0.000   0.654E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.26837780098296     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -4.6227677E-07
+ Skewness of velocity derivatives =   0.4645607    
+ kurtosis of velocity derivatives =    4.835711    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.0956496E-02
+ nt =       52000
+ MULTIPLICATION FACTOR =    1.000141      1.1173227E-02  1.1170082E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.169386752440936E-002  0.4806569    
+  
+   
+ ***MAX COURANT NUMBER :   1.254126085102967E-002  0.5154876    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.950153    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.950   0.250E-01   0.482E-15   0.588E+00   0.176E+04     0.000   0.670E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.26243971183572     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -2.5151785E-06
+ Skewness of velocity derivatives =   0.4489632    
+ kurtosis of velocity derivatives =    4.521993    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -4.6476148E-02
+ nt =       53000
+ MULTIPLICATION FACTOR =    1.000148      1.0593656E-02  1.0590511E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.112349659221964E-002  0.4572128    
+  
+   
+ ***MAX COURANT NUMBER :   1.254436265149862E-002  0.5156151    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   1.981607    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    1.982   0.248E-01   0.487E-15   0.466E+00   0.181E+04     0.000   0.678E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.25303609462172     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -8.6894312E-07
+ Skewness of velocity derivatives =   0.4105442    
+ kurtosis of velocity derivatives =    4.297747    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -2.3410127E-02
+ nt =       54000
+ MULTIPLICATION FACTOR =    1.000153      1.0262496E-02  1.0259351E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.157469907661216E-002  0.4757587    
+  
+   
+ ***MAX COURANT NUMBER :   1.204480601253042E-002  0.4950817    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.013061    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.013   0.245E-01   0.495E-15   0.617E+00   0.187E+04     0.000   0.690E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.24262240865541     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   8.0877021E-07
+ Skewness of velocity derivatives =   0.4377525    
+ kurtosis of velocity derivatives =    4.433737    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -1.9197587E-02
+ nt =       55000
+ MULTIPLICATION FACTOR =    1.000155      1.0172700E-02  1.0169555E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.094078473832171E-002  0.4497027    
+  
+   
+ ***MAX COURANT NUMBER :   1.222618955916816E-002  0.5025371    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.044515    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.045   0.242E-01   0.502E-15   0.672E+00   0.191E+04     0.000   0.701E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.23712522764495     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -4.2066648E-07
+ Skewness of velocity derivatives =   0.4454331    
+ kurtosis of velocity derivatives =    4.536040    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.0098298E-02
+ nt =       56000
+ MULTIPLICATION FACTOR =    1.000154      1.0204673E-02  1.0201528E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.047625930310705E-002  0.4306092    
+  
+   
+ ***MAX COURANT NUMBER :   1.097013800858474E-002  0.4509092    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.075969    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.076   0.238E-01   0.505E-15   0.539E+00   0.191E+04     0.000   0.704E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.23555076293581     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.4173941E-06
+ Skewness of velocity derivatives =   0.4309224    
+ kurtosis of velocity derivatives =    4.517160    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -2.4220869E-02
+ nt =       57000
+ MULTIPLICATION FACTOR =    1.000153      1.0252444E-02  1.0249299E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.052765507829220E-002  0.4327217    
+  
+   
+ ***MAX COURANT NUMBER :   1.157555392064042E-002  0.4757938    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.107423    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.107   0.235E-01   0.502E-15   0.580E+00   0.192E+04     0.000   0.699E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.23448182969790     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.6722554E-06
+ Skewness of velocity derivatives =   0.3637837    
+ kurtosis of velocity derivatives =    4.380732    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -1.8244224E-02
+ nt =       58000
+ MULTIPLICATION FACTOR =    1.000155      1.0173120E-02  1.0169975E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.117352055663170E-002  0.4592689    
+  
+   
+ ***MAX COURANT NUMBER :   1.193173240688892E-002  0.4904340    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.138877    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.139   0.231E-01   0.502E-15   0.544E+00   0.192E+04     0.000   0.699E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.23472847370837     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.2919594E-06
+ Skewness of velocity derivatives =   0.3704682    
+ kurtosis of velocity derivatives =    4.472392    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -3.3819824E-02
+ nt =       59000
+ MULTIPLICATION FACTOR =    1.000157      9.9851619E-03  9.9820169E-03
+  
+ ***MAX DROPLET COURANT NUMBER :   1.141782033372602E-002  0.4693105    
+  
+   
+ ***MAX COURANT NUMBER :   1.197960149729589E-002  0.4924015    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.170331    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.170   0.228E-01   0.508E-15   0.501E+00   0.191E+04     0.000   0.708E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.23659857297510     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -4.0211751E-07
+ Skewness of velocity derivatives =   0.3956528    
+ kurtosis of velocity derivatives =    4.607502    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -5.0914913E-02
+ nt =       60000
+ MULTIPLICATION FACTOR =    1.000159      9.8665664E-03  9.8634213E-03
+  
+ ***MAX DROPLET COURANT NUMBER :   1.114856621658025E-002  0.4582432    
+  
+   
+ ***MAX COURANT NUMBER :   1.147619624755414E-002  0.4717099    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.201786    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.202   0.224E-01   0.517E-15   0.481E+00   0.186E+04     0.000   0.721E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.24449620358394     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.8683704E-07
+ Skewness of velocity derivatives =   0.4243692    
+ kurtosis of velocity derivatives =    4.447643    
+   
+ vorticity field divergence:
+ DIVERGENCE =   3.6816844E-03
+ nt =       61000
+ MULTIPLICATION FACTOR =    1.000159      9.8755760E-03  9.8724309E-03
+  
+ ***MAX DROPLET COURANT NUMBER :   1.042374766281632E-002  0.4284508    
+  
+   
+ ***MAX COURANT NUMBER :   1.116317397114969E-002  0.4588436    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.233240    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.233   0.222E-01   0.523E-15   0.455E+00   0.178E+04     0.000   0.730E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.25778879558820     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -8.8878301E-07
+ Skewness of velocity derivatives =   0.4073782    
+ kurtosis of velocity derivatives =    4.496999    
+   
+ vorticity field divergence:
+ DIVERGENCE =   7.1514011E-03
+ nt =       62000
+ MULTIPLICATION FACTOR =    1.000157      1.0000595E-02  9.9974498E-03
+  
+ ***MAX DROPLET COURANT NUMBER :   1.004211164588396E-002  0.4127643    
+  
+   
+ ***MAX COURANT NUMBER :   1.175512627102490E-002  0.4831749    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.264694    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.265   0.220E-01   0.533E-15   0.460E+00   0.171E+04     0.000   0.743E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.27066840012263     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.0526262E-06
+ Skewness of velocity derivatives =   0.4109768    
+ kurtosis of velocity derivatives =    4.479836    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -6.1651155E-02
+ nt =       63000
+ MULTIPLICATION FACTOR =    1.000155      1.0174774E-02  1.0171629E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.042220691340151E-002  0.4283874    
+  
+   
+ ***MAX COURANT NUMBER :   1.180145606213416E-002  0.4850792    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.296148    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.296   0.219E-01   0.541E-15   0.438E+00   0.165E+04     0.000   0.754E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.28228410148156     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   3.9725256E-07
+ Skewness of velocity derivatives =   0.4549712    
+ kurtosis of velocity derivatives =    4.529696    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.8258817E-02
+ nt =       64000
+ MULTIPLICATION FACTOR =    1.000151      1.0390737E-02  1.0387592E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.056244048719792E-002  0.4341515    
+  
+   
+ ***MAX COURANT NUMBER :   1.158369922837026E-002  0.4761286    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.327602    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.328   0.218E-01   0.552E-15   0.428E+00   0.160E+04     0.000   0.770E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.29241321427709     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   3.9301187E-07
+ Skewness of velocity derivatives =   0.4439717    
+ kurtosis of velocity derivatives =    4.181023    
+   
+ vorticity field divergence:
+ DIVERGENCE =   3.5174978E-03
+ nt =       65000
+ MULTIPLICATION FACTOR =    1.000148      1.0657219E-02  1.0654074E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.015179342763725E-002  0.4172725    
+  
+   
+ ***MAX COURANT NUMBER :   1.115195078988298E-002  0.4583823    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.359056    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.359   0.218E-01   0.568E-15   0.425E+00   0.157E+04     0.000   0.792E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.29858082547716     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -7.6840672E-07
+ Skewness of velocity derivatives =   0.4360311    
+ kurtosis of velocity derivatives =    4.166742    
+   
+ vorticity field divergence:
+ DIVERGENCE =   6.3149050E-02
+ nt =       66000
+ MULTIPLICATION FACTOR =    1.000144      1.0912066E-02  1.0908921E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.871322654751696E-003  0.4057443    
+  
+   
+ ***MAX COURANT NUMBER :   1.044175666703510E-002  0.4291910    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.390510    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.391   0.218E-01   0.581E-15   0.542E+00   0.154E+04     0.000   0.810E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.30402561672675     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -5.2061773E-07
+ Skewness of velocity derivatives =   0.4188520    
+ kurtosis of velocity derivatives =    4.229469    
+   
+ vorticity field divergence:
+ DIVERGENCE =   4.9652699E-02
+ nt =       67000
+ MULTIPLICATION FACTOR =    1.000142      1.1115602E-02  1.1112457E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.040921386421878E-002  0.4278534    
+  
+   
+ ***MAX COURANT NUMBER :   1.067060907176124E-002  0.4385976    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.421964    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.422   0.218E-01   0.595E-15   0.531E+00   0.152E+04     0.000   0.828E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.30855083567240     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.2281397E-06
+ Skewness of velocity derivatives =   0.4072221    
+ kurtosis of velocity derivatives =    4.260702    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.8167872E-02
+ nt =       68000
+ MULTIPLICATION FACTOR =    1.000140      1.1242614E-02  1.1239469E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.059597371999100E-002  0.4355298    
+  
+   
+ ***MAX COURANT NUMBER :   1.111258808636282E-002  0.4567644    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.453418    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.453   0.219E-01   0.608E-15   0.526E+00   0.151E+04     0.000   0.847E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31138886204355     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -3.2988433E-07
+ Skewness of velocity derivatives =   0.4255148    
+ kurtosis of velocity derivatives =    4.085721    
+   
+ vorticity field divergence:
+ DIVERGENCE =   2.1314085E-02
+ nt =       69000
+ MULTIPLICATION FACTOR =    1.000140      1.1232407E-02  1.1229262E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.015062535831619E-002  0.4172245    
+  
+   
+ ***MAX COURANT NUMBER :   1.095902213598316E-002  0.4504523    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.484872    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.485   0.219E-01   0.619E-15   0.523E+00   0.150E+04     0.000   0.862E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31349474016325     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.2761129E-06
+ Skewness of velocity derivatives =   0.4188528    
+ kurtosis of velocity derivatives =    4.156005    
+   
+ vorticity field divergence:
+ DIVERGENCE =   4.4797733E-03
+ nt =       70000
+ MULTIPLICATION FACTOR =    1.000142      1.1109245E-02  1.1106100E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.949638403712305E-003  0.4089633    
+  
+   
+ ***MAX COURANT NUMBER :   1.047806107359919E-002  0.4306832    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.516326    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.516   0.220E-01   0.628E-15   0.437E+00   0.148E+04     0.000   0.874E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31669017118883     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   2.8076775E-07
+ Skewness of velocity derivatives =   0.4332191    
+ kurtosis of velocity derivatives =    4.175364    
+   
+ vorticity field divergence:
+ DIVERGENCE =   4.5177140E-03
+ nt =       71000
+ MULTIPLICATION FACTOR =    1.000144      1.0949349E-02  1.0946204E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.002419254892515E-002  0.4120277    
+  
+   
+ ***MAX COURANT NUMBER :   1.082040834298330E-002  0.4447548    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.547781    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.548   0.221E-01   0.640E-15   0.431E+00   0.146E+04     0.000   0.891E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32165625214111     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -3.0269001E-07
+ Skewness of velocity derivatives =   0.4148727    
+ kurtosis of velocity derivatives =    4.313197    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -1.1077042E-02
+ nt =       72000
+ MULTIPLICATION FACTOR =    1.000145      1.0824549E-02  1.0821404E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.030025279066235E-002  0.4233747    
+  
+   
+ ***MAX COURANT NUMBER :   1.092563028960696E-002  0.4490798    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.579235    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.579   0.222E-01   0.653E-15   0.546E+00   0.146E+04     0.000   0.909E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32310270634001     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -6.0689104E-07
+ Skewness of velocity derivatives =   0.4740509    
+ kurtosis of velocity derivatives =    4.473847    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -1.6220393E-02
+ nt =       73000
+ MULTIPLICATION FACTOR =    1.000145      1.0809951E-02  1.0806806E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.038502591105272E-002  0.4268592    
+  
+   
+ ***MAX COURANT NUMBER :   1.064356801320823E-002  0.4374861    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.610689    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.611   0.223E-01   0.661E-15   0.572E+00   0.147E+04     0.000   0.919E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32048802301362     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -2.2739739E-06
+ Skewness of velocity derivatives =   0.5119057    
+ kurtosis of velocity derivatives =    4.506002    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.7374950E-02
+ nt =       74000
+ MULTIPLICATION FACTOR =    1.000144      1.0903092E-02  1.0899947E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.930845611202978E-003  0.4081908    
+  
+   
+ ***MAX COURANT NUMBER :   1.041718008248724E-002  0.4281808    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.642143    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.642   0.224E-01   0.674E-15   0.610E+00   0.151E+04     0.000   0.937E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31118758061670     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.9216386E-06
+ Skewness of velocity derivatives =   0.5187736    
+ kurtosis of velocity derivatives =    4.566412    
+   
+ vorticity field divergence:
+ DIVERGENCE =   2.1204945E-02
+ nt =       75000
+ MULTIPLICATION FACTOR =    1.000143      1.0980180E-02  1.0977034E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.000651272128722E-002  0.4113010    
+  
+   
+ ***MAX COURANT NUMBER :   1.022408829041408E-002  0.4202441    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.673597    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.674   0.224E-01   0.686E-15   0.486E+00   0.155E+04     0.000   0.953E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.30164993782805     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   3.0705263E-07
+ Skewness of velocity derivatives =   0.4954185    
+ kurtosis of velocity derivatives =    4.666435    
+   
+ vorticity field divergence:
+ DIVERGENCE =   2.7168874E-02
+ nt =       76000
+ MULTIPLICATION FACTOR =    1.000144      1.0951238E-02  1.0948093E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.110298903624395E-002  0.4563698    
+  
+   
+ ***MAX COURANT NUMBER :   1.153043497730656E-002  0.4739393    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.705051    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.705   0.224E-01   0.691E-15   0.474E+00   0.156E+04     0.000   0.961E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.29974402323054     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.4934315E-06
+ Skewness of velocity derivatives =   0.4908449    
+ kurtosis of velocity derivatives =    4.884018    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -1.1146381E-02
+ nt =       77000
+ MULTIPLICATION FACTOR =    1.000144      1.0907522E-02  1.0904377E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.928444942350076E-003  0.4080922    
+  
+   
+ ***MAX COURANT NUMBER :   1.217698998632534E-002  0.5005149    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.736505    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.737   0.224E-01   0.700E-15   0.460E+00   0.155E+04     0.000   0.974E-22   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.30359698997102     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.3557783E-06
+ Skewness of velocity derivatives =   0.4695629    
+ kurtosis of velocity derivatives =    4.829891    
+   
+ vorticity field divergence:
+ DIVERGENCE =   5.5122171E-03
+ nt =       78000
+ MULTIPLICATION FACTOR =    1.000143      1.1023332E-02  1.1020187E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.091622483012045E-002  0.4486932    
+  
+   
+ ***MAX COURANT NUMBER :   1.243747597044842E-002  0.5112217    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.767959    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.768   0.224E-01   0.708E-15   0.596E+00   0.155E+04     0.000   0.986E-22   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.30174483031344     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.7928348E-06
+ Skewness of velocity derivatives =   0.4505036    
+ kurtosis of velocity derivatives =    4.458161    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.8601228E-02
+ nt =       79000
+ MULTIPLICATION FACTOR =    1.000140      1.1259302E-02  1.1256156E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.179420475159418E-002  0.4847811    
+  
+   
+ ***MAX COURANT NUMBER :   1.233544718167079E-002  0.5070280    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.799413    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.799   0.224E-01   0.719E-15   0.482E+00   0.157E+04     0.000   0.100E-21   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.29885713199360     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   2.7916758E-06
+ Skewness of velocity derivatives =   0.4166502    
+ kurtosis of velocity derivatives =    4.311529    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -2.5929224E-02
+ nt =       80000
+ MULTIPLICATION FACTOR =    1.000137      1.1505100E-02  1.1501955E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.122821969856218E-002  0.4615172    
+  
+   
+ ***MAX COURANT NUMBER :   1.231590685379832E-002  0.5062248    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.830867    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.831   0.224E-01   0.728E-15   0.422E+00   0.156E+04     0.000   0.101E-21   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.29964039987397     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -7.4947616E-07
+ Skewness of velocity derivatives =   0.4076436    
+ kurtosis of velocity derivatives =    4.286384    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -2.6769936E-05
+ nt =       81000
+ MULTIPLICATION FACTOR =    1.000134      1.1707867E-02  1.1704722E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.000760103416798E-002  0.4113458    
+  
+   
+ ***MAX COURANT NUMBER :   1.103795998517807E-002  0.4536969    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.862321    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.862   0.224E-01   0.737E-15   0.408E+00   0.153E+04     0.000   0.103E-21   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.30734147190757     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.5213202E-06
+ Skewness of velocity derivatives =   0.4259692    
+ kurtosis of velocity derivatives =    4.649228    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.8512547E-02
+ nt =       82000
+ MULTIPLICATION FACTOR =    1.000133      1.1820870E-02  1.1817725E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.524408966631377E-003  0.3914849    
+  
+   
+ ***MAX COURANT NUMBER :   9.714821667369145E-003  0.3993115    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.893775    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.894   0.225E-01   0.746E-15   0.385E+00   0.148E+04     0.000   0.104E-21   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31811318733566     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   7.8018934E-07
+ Skewness of velocity derivatives =   0.4682157    
+ kurtosis of velocity derivatives =    4.882023    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -3.0218117E-02
+ nt =       83000
+ MULTIPLICATION FACTOR =    1.000133      1.1866742E-02  1.1863597E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.173040518791267E-003  0.3770425    
+  
+   
+ ***MAX COURANT NUMBER :   9.674099479071220E-003  0.3976377    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.925229    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.925   0.226E-01   0.750E-15   0.383E+00   0.144E+04     0.000   0.104E-21   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32697660149699     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.9269564E-06
+ Skewness of velocity derivatives =   0.4380025    
+ kurtosis of velocity derivatives =    4.456677    
+   
+ vorticity field divergence:
+ DIVERGENCE =   5.2546211E-02
+ nt =       84000
+ MULTIPLICATION FACTOR =    1.000131      1.1961998E-02  1.1958853E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.078882965612272E-003  0.3731723    
+  
+   
+ ***MAX COURANT NUMBER :   9.818734883313406E-003  0.4035827    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.956683    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.957   0.227E-01   0.758E-15   0.504E+00   0.141E+04     0.000   0.105E-21   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.33430458576514     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   2.0884767E-07
+ Skewness of velocity derivatives =   0.4452369    
+ kurtosis of velocity derivatives =    4.277737    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.7423285E-02
+ nt =       85000
+ MULTIPLICATION FACTOR =    1.000129      1.2158297E-02  1.2155152E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.525184779277891E-003  0.3915168    
+  
+   
+ ***MAX COURANT NUMBER :   1.053607445815324E-002  0.4330678    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   2.988137    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    2.988   0.229E-01   0.768E-15   0.512E+00   0.140E+04     0.000   0.107E-21   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.33671096589153     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.0484663E-06
+ Skewness of velocity derivatives =   0.4189806    
+ kurtosis of velocity derivatives =    4.227697    
+   
+ vorticity field divergence:
+ DIVERGENCE =   2.7231120E-02
+ nt =       86000
+ MULTIPLICATION FACTOR =    1.000126      1.2438033E-02  1.2434888E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.058808435792866E-002  0.4352055    
+  
+   
+ ***MAX COURANT NUMBER :   1.082159671394371E-002  0.4448037    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   3.019592    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    3.020   0.230E-01   0.782E-15   0.408E+00   0.140E+04     0.000   0.109E-21   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.33506748625171     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   5.3501776E-07
+ Skewness of velocity derivatives =   0.4120226    
+ kurtosis of velocity derivatives =    4.324269    
+   
+ vorticity field divergence:
+ DIVERGENCE =   2.1000000E-02
+ nt =       87000
+ MULTIPLICATION FACTOR =    1.000123      1.2785429E-02  1.2782284E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.695604715609152E-003  0.3985217    
+  
+   
+ ***MAX COURANT NUMBER :   1.129277166110338E-002  0.4641705    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   3.051046    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    3.051   0.232E-01   0.795E-15   0.404E+00   0.141E+04     0.000   0.111E-21   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.33277123567697     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -2.0926373E-06
+ Skewness of velocity derivatives =   0.4113117    
+ kurtosis of velocity derivatives =    4.264423    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -7.1919472E-03
+ nt =       88000
+ MULTIPLICATION FACTOR =    1.000120      1.3155790E-02  1.3152645E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.018660493865071E-002  0.4187034    
+  
+   
+ ***MAX COURANT NUMBER :   1.065075044318614E-002  0.4377813    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   3.082500    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    3.082   0.233E-01   0.807E-15   0.498E+00   0.142E+04     0.000   0.112E-21   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.33048513172444     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.0243482E-06
+ Skewness of velocity derivatives =   0.3969742    
+ kurtosis of velocity derivatives =    4.214559    
+   
+ vorticity field divergence:
+ DIVERGENCE =   5.0548902E-03
+ nt =       89000
+ MULTIPLICATION FACTOR =    1.000117      1.3472957E-02  1.3469812E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.008403743137181E-002  0.4144875    
+  
+   
+ ***MAX COURANT NUMBER :   1.013218856955400E-002  0.4164667    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   3.113954    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    3.114   0.235E-01   0.816E-15   0.394E+00   0.142E+04     0.000   0.114E-21   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.33166185379583     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -2.6624440E-07
+ Skewness of velocity derivatives =   0.4006861    
+ kurtosis of velocity derivatives =    4.266320    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.4752494E-02
+ nt =       90000
+ MULTIPLICATION FACTOR =    1.000115      1.3711216E-02  1.3708071E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   9.834615840693391E-003  0.4042355    
+  
+   
+ ***MAX COURANT NUMBER :   1.100975593271384E-002  0.4525377    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   3.145408    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    3.145   0.236E-01   0.825E-15   0.382E+00   0.140E+04     0.000   0.115E-21   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.33534930242610     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -5.7394601E-08
+ Skewness of velocity derivatives =   0.4049314    
+ kurtosis of velocity derivatives =    4.381863    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.9314829E-02
+ nt =       91000
+ MULTIPLICATION FACTOR =    1.000114      1.3848677E-02  1.3845532E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.133201763019729E-002  0.4657837    
+  
+   
+ ***MAX COURANT NUMBER :   1.198194633664059E-002  0.4924979    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   3.176862    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    3.177   0.238E-01   0.834E-15   0.443E+00   0.138E+04     0.000   0.116E-21   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.34178671631744     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   4.3807302E-07
+ Skewness of velocity derivatives =   0.4231920    
+ kurtosis of velocity derivatives =    4.388747    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.0308445E-02
+ nt =       92000
+ MULTIPLICATION FACTOR =    1.000113      1.3850157E-02  1.3847012E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.176921560873242E-002  0.4837540    
+  
+   
+ ***MAX COURANT NUMBER :   1.233196110017131E-002  0.5068847    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   3.208316    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    3.208   0.240E-01   0.843E-15   0.457E+00   0.136E+04     0.000   0.117E-21   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.34630792718694     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.0859239E-07
+ Skewness of velocity derivatives =   0.3991551    
+ kurtosis of velocity derivatives =    4.372088    
+   
+ vorticity field divergence:
+ DIVERGENCE =   2.9292619E-03
+ nt =       93000
+ MULTIPLICATION FACTOR =    1.000115      1.3697117E-02  1.3693972E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.126335241051247E-002  0.4629613    
+  
+   
+ ***MAX COURANT NUMBER :   1.396761052810825E-002  0.5741153    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   3.239770    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    3.240   0.242E-01   0.851E-15   0.474E+00   0.136E+04     0.000   0.118E-21   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.34666365210260     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.3175638E-06
+ Skewness of velocity derivatives =   0.4005986    
+ kurtosis of velocity derivatives =    4.517605    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.4006577E-02
+ nt =       94000
+ MULTIPLICATION FACTOR =    1.000116      1.3559527E-02  1.3556382E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.311530855511702E-002  0.5390829    
+  
+   
+ ***MAX COURANT NUMBER :   1.400936229954454E-002  0.5758315    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   3.271224    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    3.271   0.244E-01   0.864E-15   0.510E+00   0.138E+04     0.000   0.120E-21   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.34080641957253     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.9716017E-06
+ Skewness of velocity derivatives =   0.3684393    
+ kurtosis of velocity derivatives =    5.069172    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -2.6080050E-03
+ nt =       95000
+ MULTIPLICATION FACTOR =    1.000116      1.3526496E-02  1.3523351E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.268529228150125E-002  0.5214078    
+  
+   
+ ***MAX COURANT NUMBER :   1.317105975700086E-002  0.5413744    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   3.302678    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    3.303   0.245E-01   0.877E-15   0.539E+00   0.144E+04     0.000   0.121E-21   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.32664569529971     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.0832582E-06
+ Skewness of velocity derivatives =   0.4486918    
+ kurtosis of velocity derivatives =    4.876632    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.6225898E-04
+ nt =       96000
+ MULTIPLICATION FACTOR =    1.000116      1.3513553E-02  1.3510408E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.250846790301424E-002  0.5141397    
+  
+   
+ ***MAX COURANT NUMBER :   1.301634676399803E-002  0.5350152    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   3.334132    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    3.334   0.246E-01   0.881E-15   0.505E+00   0.149E+04     0.000   0.122E-21   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.31564987375179     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -4.1227440E-07
+ Skewness of velocity derivatives =   0.4395224    
+ kurtosis of velocity derivatives =    4.662484    
+   
+ vorticity field divergence:
+ DIVERGENCE =   2.6581224E-02
+ nt =       97000
+ MULTIPLICATION FACTOR =    1.000118      1.3371298E-02  1.3368153E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.139414137166076E-002  0.4683372    
+  
+   
+ ***MAX COURANT NUMBER :   1.173110000591507E-002  0.4821873    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   3.365587    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    3.366   0.247E-01   0.889E-15   0.488E+00   0.153E+04     0.000   0.123E-21   4.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.30784104621157     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =  -1.5533890E-06
+ Skewness of velocity derivatives =   0.4420237    
+ kurtosis of velocity derivatives =    4.999718    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -9.0652462E-03
+ nt =       98000
+ MULTIPLICATION FACTOR =    1.000120      1.3057705E-02  1.3054560E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.165407341105306E-002  0.4790213    
+  
+   
+ ***MAX COURANT NUMBER :   1.186877557315363E-002  0.4878462    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   3.397041    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    3.397   0.247E-01   0.903E-15   0.408E+00   0.154E+04     0.000   0.125E-21   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.30566908222427     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   8.9220515E-07
+ Skewness of velocity derivatives =   0.4307749    
+ kurtosis of velocity derivatives =    4.903177    
+   
+ vorticity field divergence:
+ DIVERGENCE =  -2.7125515E-02
+ nt =       99000
+ MULTIPLICATION FACTOR =    1.000124      1.2690849E-02  1.2687704E-02
+  
+ ***MAX DROPLET COURANT NUMBER :   1.239112442758271E-002  0.5093165    
+  
+   
+ ***MAX COURANT NUMBER :   1.278933963327692E-002  0.5256845    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   3.428495    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    3.428   0.247E-01   0.925E-15   0.427E+00   0.155E+04     0.000   0.128E-21   5.0
+                              
+                              
+                              
+   
+ kmax*eta =    1.30293302714896     
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   7.1729164E-07
+ Skewness of velocity derivatives =   0.4151485    
+ kurtosis of velocity derivatives =    4.957089    
+   
+ vorticity field divergence:
+ DIVERGENCE =   1.2665185E-02
+ nt =      100000
+ Writing to drop.out at time    3.459886    
+ mype           1 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =           1
+ mype           2 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =           2
+ mype           3 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =           3
+ mype           4 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =           4
+ mype           5 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =           5
+ mype           6 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =           6
+ mype           7 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =           7
+ mype           8 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =           8
+ mype           9 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =           9
+ mype          10 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          10
+ mype          11 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          11
+ mype          12 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          12
+ mype          13 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          13
+ mype          14 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          14
+ mype          15 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          15
+ mype          16 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          16
+ mype          17 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          17
+ mype          18 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          18
+ mype          19 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          19
+ mype          20 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          20
+ mype          21 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          21
+ mype          22 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          22
+ mype          23 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          23
+ mype          24 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          24
+ mype          25 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          25
+ mype          26 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          26
+ mype          27 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          27
+ mype          28 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          28
+ mype          29 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          29
+ mype          30 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          30
+ mype          31 done sending data for drop.out.ncf
+ mype = 0 has received all data for drop.out.ncf from mype =          31
+ time of ncdumpdrop =    3.459886    
+ MULTIPLICATION FACTOR =    1.000127      1.2418391E-02  1.2415246E-02
+ mype           1 done sending data for Zk.out.ncf
+ Writing to Zk.out at time    3.459917    
+ in opt = 0 at start
+ mype = 0 has received all data for Zk.out.ncf from mype =           1
+ mype           2 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =           2
+ mype           3 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =           3
+ mype           4 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =           4
+ mype           5 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =           5
+ mype           6 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =           6
+ mype           7 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =           7
+ mype           8 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =           8
+ mype           9 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =           9
+ mype          10 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          10
+ mype          11 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          11
+ mype          12 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          12
+ mype          13 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          13
+ mype          14 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          14
+ mype          15 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          15
+ mype          16 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          16
+ mype          17 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          17
+ mype          18 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          18
+ mype          19 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          19
+ mype          20 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          20
+ mype          21 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          21
+ mype          22 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          22
+ mype          23 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          23
+ mype          24 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          24
+ mype          25 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          25
+ mype          26 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          26
+ mype          27 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          27
+ mype          28 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          28
+ mype          29 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          29
+ mype          30 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          30
+ mype          31 done sending data for Zk.out.ncf
+ mype = 0 has received all data for Zk.out.ncf from mype =          31
+ Writing to out.ncf at time    3.459917    
+ after writing time
+ mype           1 done sending data for out.ncf
+ after mype = 0 dumped his data
+ mype = 0 has received all data for out.ncf from mype =           1
+ mype           2 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           2
+ mype           3 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           3
+ mype           4 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           4
+ mype           5 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           5
+ mype           6 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           6
+ mype           7 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           7
+ mype           8 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           8
+ mype           9 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =           9
+ mype          10 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          10
+ mype          11 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          11
+ mype          12 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          12
+ mype          13 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          13
+ mype          14 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          14
+ mype          15 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          15
+ mype          16 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          16
+ mype          17 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          17
+ mype          18 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          18
+ mype          19 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          19
+ mype          20 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          20
+ mype          21 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          21
+ mype          22 done sending data for out.ncf
+ mype = 0 has received all data for out.ncf from mype =          22
+ mype = 0 has received all data for out.ncf from mype =          23
+ mype = 0 has received all data for out.ncf from mype =          24
+ mype = 0 has received all data for out.ncf from mype =          25
+ mype = 0 has received all data for out.ncf from mype =          26
+ mype = 0 has received all data for out.ncf from mype =          27
+ mype = 0 has received all data for out.ncf from mype =          28
+ mype = 0 has received all data for out.ncf from mype =          29
+ mype = 0 has received all data for out.ncf from mype =          30
+ mype = 0 has received all data for out.ncf from mype =          31
+ mype          23 done sending data for out.ncf
+ mype          24 done sending data for out.ncf
+ mype          25 done sending data for out.ncf
+ mype          26 done sending data for out.ncf
+ mype          27 done sending data for out.ncf
+ mype          28 done sending data for out.ncf
+ mype          29 done sending data for out.ncf
+ mype          30 done sending data for out.ncf
+ mype          31 done sending data for out.ncf
+  
+ ***MAX DROPLET COURANT NUMBER :   1.326021295608057E-002  0.5450389    
+  
+   
+ ***MAX COURANT NUMBER :   1.449239485420055E-002  0.5956857    
+   
+ KINETIC ENERGY, ENSTROPHY, POTENTIAL ENERGY & EQUIVALENT FOR QV AT T = 
+   3.459917    
+     
+     
+     
+ ________________________________________________________
+       Time        KE          PE          VVK          V          H          S2      KKOL
+    3.460   0.247E-01   0.956E-15   0.410E+00   0.158E+04     0.000   0.133E-21   5.0
+                              
+                              
+                              
+                 
+ VELOCITY FIELD DIVERGENCE:
+ DIVERGENCE =   1.5271441E-06
+ Skewness of velocity derivatives =   0.4711845    
+ kurtosis of velocity derivatives =    5.057367    
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+               
+               
+               
+               
+ ______________________________________________________ 
+      
+ cpu time required for main loop =    259. s =     4.3 m =    0.07 h =   0.003 d.

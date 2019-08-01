@@ -1,0 +1,22 @@
+#!/bin/bash
+#PBS -N CC2
+#PBS -l select=1:ncpus=32:mpiprocs=32
+#PBS -l walltime=00:10:00
+#PBS -A P54048000  
+#PBS -j oe
+#PBS -q regular
+
+## start the application
+
+#module purge
+
+##source /glade/u/apps/ch/opt/Lmod/7.3.14/lmod/7.3.14/init/bash
+#module load peak_memusage
+#module load impi
+#module load openmpi
+#mpirun -n 32 ./cloud_turb > stdout_cheyenne
+#export MPI_SHEPHERD=true 
+#mpiexec_mpt peak_memusage.exe ./cloud_turb > stdout_cheyenne
+time mpiexec_mpt ./cloud_turb > stdout_cheyenne
+#mpirun -n $[PBS_NUM_NODES*ppn] -npernode $ppn $myExe
+#mpiexec -n $[PBS_NUM_NODES*ppn] -npernode $ppn  $myExe > stdout
