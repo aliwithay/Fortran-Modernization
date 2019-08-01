@@ -1,4 +1,8 @@
 #! /bin/bash
+
+# Developed by Aly Ammar at NCAR
+# as a SIParCS intern summer 2019
+
 rm *.f90
 rm -r tof90output
 module load ftools

@@ -1,3 +1,6 @@
+# Developed by Aly Ammar at NCAR
+# as a SIParCS intern summer 2019
+
 import os
 import re
 import sys

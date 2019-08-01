@@ -1,4 +1,8 @@
 #! /bin/sh
+
+# Developed by Aly Ammar at NCAR
+# as a SIParCS intern summer 2019
+
 DIRECTORY="f2foutput"
 if [ ! -d $DIRECTORY ]; then
 	mkdir $DIRECTORY

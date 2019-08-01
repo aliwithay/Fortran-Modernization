@@ -1,3 +1,6 @@
+# Developed by Aly Ammmar at NCAR
+# as a SIParCS intern, summer 2019.
+
 import os
 currdir = os.getcwd()
 outputdir = currdir + "/convertoutput"

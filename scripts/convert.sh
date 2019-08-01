@@ -1,4 +1,8 @@
 #! /bin/sh
+
+# Developed by Aly Ammar at NCAR
+# as a SIParCS intern, summer 2019
+
 DIRECTORY="convertoutput"
 if [ -d $DIRECTORY ]; then
 	rm -r convertoutput
