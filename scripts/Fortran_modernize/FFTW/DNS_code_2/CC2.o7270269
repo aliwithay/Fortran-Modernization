@@ -1,7 +1,0 @@
-MPT ERROR: MPI_COMM_WORLD rank 19 has terminated without calling MPI_Finalize()
-	aborting job
-MPT: Received signal 7
-
-real	0m28.774s
-user	0m10.876s
-sys	0m0.741s

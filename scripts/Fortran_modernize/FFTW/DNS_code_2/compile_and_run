@@ -1,7 +1,0 @@
-source ~/.bashrc
-rm cloud_turb
-make
-if [ -f cloud_turb ];
-then
-qsub run_cheyenne
-fi
